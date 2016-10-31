@@ -1,0 +1,3 @@
+{{#each model as |ticket|}}
+  <p>{{#link-to 'teacher' ticket.id}}{{ticket.who}}{{/link-to}}</p>
+{{/each}}
